@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+
+.box {
+    width: 450px;
+    background-color: red;
+    margin: auto;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: end;
+    align-items: center;
+}
+
+.box-container {
+    margin: 0 auto;
+    width: 430px;
+}
+
+.box_upper {
+    text-align: right;
+    margin-top: 44px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    color: white;
+    font-size: 48px;
+}
+
+.result {
+    display: inline-block;
+    margin-top: 88px;
+    color: #969696;
+}
+
+.line {
+    width: 400px;
+    height: 1px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.box {
+    background-color: #151515;
+}
+
+
+.box_bottom{
+    width: 430px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 0;
+}
+
+.button-box{
+    width: 430px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #343434;
+    outline: none;
+    border: #343434;
+    color: white;
+    font-size: 36px;
+    width: 73px;
+    height: 75px;
+    margin: 0;
+    margin: 15px;
+    border-radius: 9px;
+}
+
+.change-color{
+    color: #66FF7F;
+}
+
+.btn:active{
+    background-color: #FF5959;
+    color: #343434;
+}
+
+.delete{
+    display: inline-block;
+    color: white;
+    font-size: 45px;
+    text-align: right;
+    display: flex;
+    background:#151511; ;
+    border: none;
+}
+
+.delete-box{
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+}
